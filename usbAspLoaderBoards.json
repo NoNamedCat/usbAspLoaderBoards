@@ -1,0 +1,76 @@
+{
+  "packages": [
+    {
+      "name": "usbAspLoaderBoards",
+      "maintainer": "NoNamedCat",
+      "websiteURL": "https://github.com/NoNamedCat/usbAspLoaderBoards",
+      "email": "",
+      "help": {
+        "online": "https://github.com/NoNamedCat/usbAspLoaderBoards"
+      },
+      "platforms": [
+        {
+          "name": "usbAspLoaderBoards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/NoNamedCat/usbAspLoaderBoards"
+          },
+          "url": "https://github.com/NoNamedCat/usbAspLoaderBoards/usbAspLoaderBoards-0.1.zip",
+          "archiveFileName": "usbAspLoaderBoards-0.1.zip",
+          "checksum": "",
+          "size": "",
+          "boards": [
+            {"name": "Metaboard"},
+            {"name": "MHVboard"},
+            {"name": "Usnobbie"},
+            {"name": "tinyUSBboard"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "usbAspLoaderBoards",
+          "architecture": "avr",
+          "version": "0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/NoNamedCat/usbAspLoaderBoards/usbAspLoaderBoards-0.1.zip",
+          "archiveFileName": "usbAspLoaderBoards-0.1.zip",
+          "checksum": "",
+          "size": "",
+          "boards": [
+            {"name": "My Board"},
+            {"name": "My Board Pro"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
